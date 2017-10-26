@@ -1,0 +1,128 @@
+@import "../variables";
+
+.latestNews--border{
+  width: 100%;
+  height: auto;
+  border: 1px solid #d7d7d7;
+  margin-bottom: 25px;
+}
+.latestNews__top{
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  padding: 15px 0 15px 21px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  background: black;
+  &:hover,
+  &:active,
+  &:focus{
+    text-decoration: underline;
+  }
+}
+.latestNews__bottom{
+  @extend .latestNews__top;
+  margin-top: 15px;
+}
+.sidebarNews__tittle{
+  display: inline-block;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  padding:24px 25px 11px 10px;
+  transition: color .2s;
+  text-decoration: none;
+  &:hover,
+  &:active,
+  &:focus{
+    color: #dd4705;
+  }
+}
+.sidebarNews__text{
+  color: #000000;
+  padding: 0 14px 20px 10px;
+  letter-spacing: 0.7px;
+  margin: 0;
+}
+.newsSidebarBot--flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 15px 10px 15px ;
+}
+.newsSidebarBot__left{
+  color: #dd4705;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  i{
+    margin-right: 9px;
+  }
+  &:hover,
+  &:active,
+  &:focus{
+    color: #dd4705;
+    text-decoration: underline;
+  }
+}
+.sidebarNews--borderBot{
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.sidebarSearch--bg{
+  background-color: #dd4705;
+  padding-bottom: 9px;
+  margin-bottom: 35px;
+}
+.sidebarSearch__title{
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  padding: 12px 0;
+}
+.sidSeaInp{
+  max-width: 240px;
+  width: 100%;
+  height: 35px;
+  background-color: #ffffff;
+  outline: none;
+  margin: 0 auto 10px;
+  display: block;
+  padding-left: 15px;
+}
+.sideSubInp{
+  outline: none;
+  width: 132px;
+  display: block;
+  margin: 0 auto;
+  height: 41px;
+  background: #000000;
+  border: 1px solid transparent;
+  color: #ffffff;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+  &:hover,
+  &:active,
+  &:focus{
+    border: 1px solid white;
+    text-decoration: underline;
+  }
+}
+.blockApiGraphic{
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  .blockApiGraphic__overlay{
+    width: 100%;
+  }
+}
+.blockBanner{
+  margin-bottom: 65px;
+}
+.blockBanner__a{
+  img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+//RopaSansPTT-Italic
+
+@font-face {
+  font-family: 'ri';
+  src: url('../fonts/RopaSansPTT-Italic.woff') format('woff'),
+  url('../fonts/RopaSansPTT-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//RopaSansPTT-Regular
+
+@font-face {
+  font-family: 'rr';
+  src: url('../fonts/RopaSansPTT-Regular.woff') format('woff'),
+  url('../fonts/RopaSansPTT-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// font-family: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');

@@ -1,0 +1,94 @@
+@import "normalize";
+@import "bootstrap4-grid";
+@import "variables";
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+.search__inp::-webkit-input-placeholder {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.search__inp:-moz-placeholder {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.search__inp::-moz-placeholder {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.search__inp:-ms-input-placeholder {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.hidden {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $rob;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+//footer fixed in down
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+footer {
+  flex: 0 0 auto;
+}
+
+//import element and pages
+
+@import "index/_header";
+@import "index/topCourseVal";
+@import "index/sidebar";
+@import "index/mainNews";
+@import "index/news";
+@import "pageNews/bredcrums";
+@import "pageNews/mainNewsPage";
+@import "index/_footer";
+
+
+

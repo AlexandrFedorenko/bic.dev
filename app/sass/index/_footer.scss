@@ -1,0 +1,48 @@
+@import "../variables";
+
+.footer{
+  background:  #dd4705;
+  border-top:3px solid #c34108;
+  padding: 20px 0 10px;
+}
+.foot{
+  list-style: square outside;
+  color: white;
+  margin: 0;
+  padding-left: 0;
+  li{
+    padding-bottom: 10px;
+    &:last-child{
+      padding-bottom: 0;
+    }
+    a{
+      color: white;
+      text-decoration: underline;
+      letter-spacing: 0.7px;
+      &:hover,
+      &:active,
+      &:focus{
+        text-decoration: none;
+      }
+    }
+  }
+}
+.footer-text{
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 0.7px;
+}
+
+//media
+
+@media  (max-width: 992px){
+  .footer-text{
+    text-align: center;
+  }
+  .foot{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: center;
+  }
+}

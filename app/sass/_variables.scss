@@ -1,0 +1,54 @@
+@import "fonts";
+
+//font-family
+
+$ita: 'ri',sans-serif;
+
+$reg: 'rr',sans-serif;
+
+$rob: 'Roboto', sans-serif;
+
+
+//color main
+
+$orang: #dd4705;
+
+$black: black;
+
+
+//text color
+
+$white: white;
+
+$blacText:black;
+
+//sprite icons
+
+.icon-face, .icon-telegram, .icon-twiter, .icon-vk, .icon-yut,
+.icon-mail, .icon-ise, .icon-mess, .icon-flag, .icon-world,
+.menu-arr, .icon-left-arr, .icon-right-arr
+{ display: inline-block; background: url('../img/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.icon-face { background-position: -5px -0px; width: 34px; height: 34px; }
+.icon-telegram { background-position: -5px -39px; width: 34px; height: 34px; }
+.icon-twiter { background-position: -5px -78px; width: 34px; height: 34px; }
+.icon-vk { background-position: -5px -117px; width: 34px; height: 34px; }
+.icon-yut { background-position: -5px -156px; width: 34px; height: 34px; }
+.icon-mail { background-position: -5px -195px; width: 22px; height: 14px; }
+.icon-ise { background-position: -5px -214px; width: 17px; height: 8px; }
+.icon-mess { background-position: -5px -227px; width: 17px; height: 13px; }
+.icon-flag { background-position: -5px -245px; width: 16px; height: 12px; }
+.icon-world { background-position: -5px -262px; width: 16px; height: 16px; }
+.menu-arr { background-position: -5px -283px; width: 9px; height: 5px; }
+.icon-left-arr { background-position: -27px -214px; width: 7px; height: 12px; }
+.icon-right-arr { background-position: -27px -231px; width: 7px; height: 12px; }
+
+
+//sprite social
+.icon-fe-gr, .icon-tel-gr, .icon-tw-gr, .icon-yu-gr
+{ display: inline-block; background: url('../img/sprite2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.icon-fe-gr { background-position: -5px -0px; width: 34px; height: 34px; }
+.icon-tel-gr { background-position: -44px -0px; width: 34px; height: 34px; }
+.icon-tw-gr { background-position: -5px -39px; width: 34px; height: 34px; }
+.icon-yu-gr { background-position: -44px -39px; width: 34px; height: 34px; }

@@ -1,0 +1,76 @@
+@import "../variables";
+
+.cripTopLeft__text {
+  color: #000000;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.wrapCripto {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cripTopLeft__name {
+  color: #000000;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.55px;
+}
+
+.criptoItem__right p {
+  color: #000000;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 4px;
+}
+
+.cripTopRight__pricw {
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+.cripTopRight__min {
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  span {
+    color: #dd4705;
+  }
+}
+
+.cripTopRight__plus {
+  @extend .cripTopRight__min;
+}
+
+.criptoItem {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+//media
+@media (max-width: 1200px) {
+  .criptoItem {
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 768px){
+  .criptoItem{
+    margin-left: 20px;
+  }
+  .wrapCripto{
+    justify-content: center;
+  }
+}
+@media (max-width: 420px){
+  .criptoItem{
+    margin-left: 0;
+  }
+}
